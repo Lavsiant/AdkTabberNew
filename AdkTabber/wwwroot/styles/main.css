@@ -1,0 +1,186 @@
+.main-toolbar{
+    width: 100%;
+    align-content: center;
+    background-color: #3f51b5;
+}
+.tab-toolbar{
+    text-align: center;
+    font-weight: 700;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 20px 5% 20px 5%;
+    padding: 40px;
+    display: flex;
+    min-height: 500px;
+}
+
+.filter-bar{
+    display: flex;
+}
+
+.filter{
+    margin: 10px;
+    min-width: 165px;
+}
+
+.tab-list{
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 12px;
+    float: left;
+}
+
+.selected-tab{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 12px;
+    float: right;
+    margin: 0% 0% 0% 5%;
+}
+
+.root{
+    width: '100%';
+    margin: 5% 3% 5% 3%;
+    text-align: center;
+    min-width: 300px;
+ }
+
+.tab-create{
+    width: 80%;
+      margin: auto;
+      text-align: center;
+      min-width: 500px;
+
+}
+
+.table{
+    min-width: 500px;
+}
+
+.table-field{
+    text-decoration: none;
+}
+
+
+.table-wrapper{
+    overflow-x: auto;
+ }
+
+ .root-pagination{
+    flex-shrink: 0;
+    color: gray;
+    margin-left: 6px
+  }
+
+  .filter-field{
+      margin: 10px 10px 10px 10px;
+  }
+
+  .tab-create-form{
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .login{
+      width: 30%;
+      margin: auto;
+      text-align: center;
+  }
+
+  .login-field{
+      margin-top: 20px
+  }
+
+  .field{
+      margin: 30px;
+  }
+
+  .form-group{
+      margin: 15px 15px 15px 15px;
+  }
+
+  .guitar-tab-row{
+ 
+      min-height: 40px;
+  }
+
+  .guitar-tab-col{
+    border: 1px solid black;
+    min-width: 40px;
+    max-width: 40px;
+    font-size: 25px;
+    min-height: 40px;
+}
+
+.progress-col{
+    border: 1px solid black;
+    min-width: 40px;
+    max-width: 40px;
+    font-size: 25px;
+    min-height: 15px;
+}
+
+.progress-col-current{
+    background-color: lightgreen;
+}
+
+.guitar-tab-col-empty{
+    min-Width: 40px;
+    font-size: 25px;
+    min-height: 40px;
+}
+
+.guitar-note-input{
+    max-width: 35px;
+    min-width: 35px;
+    height: 34px;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+
+.drum-tab-row{
+ 
+    min-height: 60px;
+}
+
+.drum-tab-col{
+  border: 1px solid black;
+  min-width: 80px;
+  max-width: 80px;
+  width: 80px;
+  font-size: 25px;
+  min-height: 54px;
+}
+
+
+.drum-tab-col-empty{
+  min-width: 80px;
+  font-size: 25px;
+  min-height: 40px;
+}
+
+.drum-note-input{
+  max-width: 80px;
+  min-width: 80px;
+  height: 55px;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.drum-progress-col{
+    border: 1px solid black;
+    min-width: 80px;
+    max-width: 80px;
+    font-size: 25px;
+    min-height: 15px;
+}
+
+.drum-progress-col-current{
+    background-color: lightgreen;
+}
